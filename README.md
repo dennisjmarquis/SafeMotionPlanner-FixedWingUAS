@@ -3,6 +3,12 @@ Supplementary material for “Development and Application of a Dynamic Obstacle 
 
 Abstract: This paper presents a motion planner for a small fixed-wing uncrewed aircraft system navigating in a dynamic obstacle environment. This planner generates dynamically feasible, evasive trajectories by concatenating motion primitives from a predefined library. A key contribution is the use of the dReal4 satisfiability modulo theories solver, which guarantees the existence of a safe evasive trajectory under a set of environmental assumptions. To reduce tracking errors due to the wind disturbance, an adaptive two-state extended Kalman filter is used to estimate steady wind and accordingly adjust the prespecified motion primitives. The controller used for implementation is a switched $\ell_2$-induced norm controller. The effectiveness of the proposed approach is validated through high-fidelity simulations and flight tests. The results from both simulation and flight tests are consistent with the safety guarantees obtained for the motion planner.
 
+## Flight Logs
+
+The full set of flight logs is available in the
+[**Flight Logs Archive**](https://github.com/dennisjmarquis/SafeMotionPlanner-FixedWingUAS/releases/tag/flightlogs)
+
+
 ### Citation
 
 If you use this repository, please cite as:
